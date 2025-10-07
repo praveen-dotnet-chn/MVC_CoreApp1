@@ -13,7 +13,7 @@ namespace MVC_CoreApp1.Controllers
                 Name = "Pandu",
                 Salary = 99999
             };
-
+            //returning emp object here
             return View(emp);
         }
     }
