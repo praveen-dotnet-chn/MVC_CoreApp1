@@ -7,6 +7,7 @@ namespace MVC_CoreApp1.Controllers
     {
         public IActionResult Index()
         {
+            //Creating employ object with some default values using object initializer
             Employ emp = new Employ()
             {
                 Id = 1,
